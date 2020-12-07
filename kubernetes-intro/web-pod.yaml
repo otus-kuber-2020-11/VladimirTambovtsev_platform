@@ -1,7 +1,7 @@
 apiVersion: v1 # Версия API
 kind: Pod # Объект, который создаем
 metadata:
-  name: k8s-app-node-server # Название Pod
+  name: web # Название Pod
   labels: # Метки в формате key: value
     server_type: gateway
 spec: # Описание Pod
