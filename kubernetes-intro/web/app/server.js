@@ -3,8 +3,8 @@ const express = require('express')
 const app = express()
 
 
-app.get('/', (req, res) => {
-  res.send('<h1>Hello World!</h1>')
+app.get('*', (req, res) => {
+  res.sendFile(__dirname + '/public' + '/index.html');
 })
 
 const PORT = process.env.PORT || 8000
