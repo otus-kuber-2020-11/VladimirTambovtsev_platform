@@ -7,7 +7,7 @@ metadata:
 spec: # Описание Pod
   containers: # Описание контейнеров внутри Pod
     - name: k8s-app # Название контейнера
-      image: vladimir44/k8s-app:0.3 # Образ из которого создается контейнер
+      image: vladimir44/k8s-app:0.4 # Образ из которого создается контейнер
       volumeMounts:
         - name: app
           mountPath: /app
