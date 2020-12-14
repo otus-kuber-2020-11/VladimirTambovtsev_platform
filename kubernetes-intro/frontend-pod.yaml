@@ -1,0 +1,13 @@
+apiVersion: v1 # Версия API
+kind: Pod # Объект, который создаем
+metadata:
+  name: microservice-frontend # Название Pod
+  labels: # Метки в формате key: value
+    server_type: frontend
+spec: # Описание Pod
+  containers: # Описание контейнеров внутри Pod
+    - name: microservice-frontend # Название контейнера
+      image: vladimir44/microservices-demo-frontend:0.1 # Образ из которого создается контейнер
+  dnsPolicy: ClusterFirst
+  restartPolicy: Never
+status: {}

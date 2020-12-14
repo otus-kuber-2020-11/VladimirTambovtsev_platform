@@ -1,0 +1,14 @@
+{
+  "name": "VladimirTambovtsev_platform",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/otus-kuber-2020-11/VladimirTambovtsev_platform.git",
+  "author": "Vladimir Tambovtsev <tambovcev99@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
