@@ -21,4 +21,3 @@ spec: # Описание Pod
   volumes:
     - name: app
       emptyDir: {}
-
